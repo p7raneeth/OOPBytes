@@ -72,3 +72,6 @@ headings = extract_data_from_links(user_input)
 stock_info_df = generate_stock_info(headings)
 stock_info_df.drop_duplicates(inplace=True)
 st.dataframe(stock_info_df)
+
+
+print('testing branch')
